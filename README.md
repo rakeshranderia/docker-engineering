@@ -1,54 +1,30 @@
 # Docker Engineering
 
-Hands-on Docker engineering covering image builds, registries, CI/CD, networking, security, optimisation and application packaging.
+Hands-on Docker engineering covering container images, registries, CI/CD and application packaging.
 
-> **Status:** Active development  
-> **Started:** October 2026
+This repository contains practical Docker implementations and working examples developed while building and testing container-based workflows.
 
----
+## Project Links
 
-## Purpose
-
-This repository is a practical collection of Docker engineering exercises, reusable patterns and working examples.
-
-The focus is on understanding how containers operate in real environments rather than simply learning individual Docker commands.
-
-Areas covered will include:
-
-- image creation and optimisation;
-- container lifecycle management;
-- Docker Hub and container registries;
-- persistent storage and volumes;
-- container networking;
-- environment variables and configuration;
-- Docker Compose;
-- health checks and resilience;
-- image security and vulnerability scanning;
-- GitHub Actions CI/CD;
-- automated image publishing;
-- tagging and release management;
-- troubleshooting and operational practices.
-
-The repository will grow as each capability is built and tested.
+- **Docker Hub:** https://hub.docker.com/r/rakeshranderia/docker-hello
+- **GitHub:** https://github.com/rakeshranderia/docker-engineering
+- **Website:** https://rakeshranderia.com.au
 
 ---
 
-## Current Architecture
+## Current Implementation
+
+### Docker Hello
+
+The first implementation packages a simple static web application using the lightweight `nginx:alpine` base image.
+
+It demonstrates the core Docker lifecycle:
 
 ```text
-Source Code
-    |
-    v
 Dockerfile
-    |
-    v
+    ↓
 Docker Image
-    |
-    v
+    ↓
 Container
-    |
-    v
-Local Application
-    |
-    v
+    ↓
 Docker Hub Registry
