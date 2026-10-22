@@ -8,7 +8,9 @@ This repository contains practical Docker implementations and working examples d
 
 - **Docker Hub:** https://hub.docker.com/r/rakeshranderia/docker-hello
 - **GitHub:** https://github.com/rakeshranderia/docker-engineering
-- **Website:** https://rakeshranderia.com.au
+- **Website:** https://rakeshranderia.com.au/projects/docker-engineering/
+- **DEV article:** https://dev.to/rakeshranderia/docker-publishing-with-github-actions-a-practical-end-to-end-setup-39g4
+- **CodePen visual:** https://codepen.io/rakeshranderia/pen/YPZvRGm
 
 ---
 
@@ -28,3 +30,4 @@ Docker Image
 Container
     ↓
 Docker Hub Registry
+```
